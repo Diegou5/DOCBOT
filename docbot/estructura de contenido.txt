@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DocBot S.A.S</title>
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        /* Efecto de scroll suave */
+        html {
+            scroll-behavior: smooth;
+        }
+
+        header {
+            background-color: #4169E1;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 10px 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            padding: 40px 20px;
+            max-width: 900px;
+            margin: 20px auto;
+            background-color: white;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+
+        h1, h2 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        section {
+            margin-bottom: 40px;
+        }
+
+        ul {
+            list-style-type: "●";
+            padding-left: 20px;
+        }
+
+        ul li {
+            margin-bottom: 10px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        /* Efectos responsivos */
+        @media (max-width: 600px) {
+            nav ul {
+                flex-direction: column;
+            }
+
+            nav ul li {
+                margin: 5px 0;
+            }
+
+            main {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>DocBot S.A.S</h1>
+    <nav>
+        <ul>
+            <li><a href="#seccion1">¿Qué somos?</a></li>
+            <li><a href="#seccion2">Nuestros servicios</a></li>
+            <li><a href="#seccion3">Innovación y mejora continua</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section id="seccion1">
+        <h2>¿Qué somos?</h2>
+        <p>
+            DocBot S.A.S. es una empresa innovadora en el sector de la telemedicina que se especializa 
+            en el desarrollo y operación de plataformas de diagnóstico médico en línea. Nuestra misión 
+            es mejorar el acceso a la atención médica ofreciendo a los usuarios una evaluación preliminar 
+            de sus síntomas mediante inteligencia artificial, de forma rápida, segura y accesible desde cualquier lugar.
+        </p>
+        <p>
+            La plataforma DocBot permite que los pacientes reciban orientación médica de manera inmediata, 
+            lo que reduce los tiempos de espera en hospitales y facilita una atención oportuna.
+        </p>
+    </section>
+
+    <section id="seccion2">
+        <h2>Nuestros servicios digitales</h2>
+        <ul>
+            <li><strong>Diagnóstico médico en línea:</strong> Evaluación preliminar de síntomas mediante 
+                algoritmos de inteligencia artificial, lo que permite a los pacientes obtener un diagnóstico inicial 
+                antes de acudir a una consulta médica presencial.
+            </li>
+            <li><strong>Consultas virtuales:</strong> Conexión directa con médicos calificados para recibir 
+                asesoramiento personalizado en línea.
+            </li>
+            <li><strong>Monitoreo y seguimiento:</strong> Facilidades para el seguimiento de condiciones crónicas 
+                mediante consultas periódicas y registros médicos digitales.
+            </li>
+        </ul>
+    </section>
+
+    <section id="seccion3">
+        <h2>Innovación y mejora continua</h2>
+        <p>
+            En DocBot, estamos comprometidos con la investigación y el desarrollo para mejorar la precisión 
+            de nuestros diagnósticos y expandir los servicios que ofrecemos. Además, implementamos 
+            programas piloto en comunidades para adaptar la plataforma a las necesidades específicas de cada 
+            población, especialmente en áreas rurales y con acceso limitado a servicios médicos.
+        </p>
+        <p>
+            Con DocBot S.A.S., buscamos transformar el acceso a la atención médica, proporcionando a 
+            nuestros usuarios una alternativa confiable, eficiente y accesible para sus necesidades de salud.
+        </p>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2024 - DocBot S.A.S. Todos los derechos reservados.</p>
+</footer>
+
+</body>
+</html>
+
